@@ -1,0 +1,14 @@
+.description {
+  font-size: 13px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+.short {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.full {
+  display: block;
+}

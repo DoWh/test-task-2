@@ -1,0 +1,12 @@
+.todo {
+  display: flex;
+  flex-direction: column;
+  border-radius: 7px;
+  border: 4px solid #f4f8ff;
+  margin-top: 8px;
+  padding: 6px 12px;
+
+  section {
+    margin: 6px 0;
+  }
+}

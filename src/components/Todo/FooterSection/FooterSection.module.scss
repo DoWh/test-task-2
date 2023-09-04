@@ -1,0 +1,21 @@
+.footer {
+  font-size: 12px;
+  display: flex;
+  div {
+    background-color: #b233a6;
+    color: white;
+    padding: 5px;
+    border-radius: 4px;
+    margin: 2px;
+    font-weight: 600;
+  }
+  div:nth-child(2) {
+    background-color: #ebeef6;
+    color: #616c82;
+    padding-right: 15px;
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+  }
+  img {
+    margin-left: auto;
+  }
+}

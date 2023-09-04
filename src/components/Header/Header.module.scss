@@ -1,0 +1,27 @@
+.header {
+  width: 255px;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+  font-size: 12px;
+  font-weight: 600;
+  justify-content: space-between;
+  h1 {
+    font-size: 14px;
+    color: #50b810;
+  }
+  section {
+    display: flex;
+    img {
+      padding: 4px;
+      border-radius: 4px;
+      background-color: #ebeef6;
+    }
+    div {
+      margin-left: 10px;
+      border: 1px solid #7b8aab;
+      padding: 2px;
+      border-radius: 4px;
+    }
+  }
+}
