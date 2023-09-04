@@ -9,7 +9,6 @@ import styles from './Todo.module.scss'
 
 interface TodoProp {
   data: iTodo
-  page: number
 }
 
 const Todo: FC<TodoProp> = observer(({ data }) => {
